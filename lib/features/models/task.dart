@@ -1,21 +1,8 @@
-import 'package:hive/hive.dart';
-part 'task.g.dart';
-
-@HiveType(typeId: 1)
-class TaskModel extends HiveObject {
-  @HiveField(0)
+class TaskModel {
   String id;
-
-  @HiveField(1)
   String text;
-
-  @HiveField(2)
   bool isDone;
-
-  @HiveField(3)
   int colorValue;
-
-  @HiveField(4)
   int createdAt;
 
   TaskModel({
