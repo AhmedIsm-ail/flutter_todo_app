@@ -1,16 +1,24 @@
-# taining
+# Flutter To-Do List App
 
-A new Flutter project.
+A simple To-Do List mobile application built using Flutter.
 
-## Getting Started
+## Features
+- Add new tasks
+- Edit existing tasks
+- Mark tasks as completed
+- Delete tasks
+- Clean and simple user interface
 
-This project is a starting point for a Flutter application.
+## Notes
+- No user authentication
+- No data persistence
+- Focused on core functionality only
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
+- Flutter
+- Dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+1. Clone the repository
+2. Run `flutter pub get`
+3. Run the app using `flutter run`
